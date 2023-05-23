@@ -1,0 +1,158 @@
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas nue", "Arial", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-main__inner {
+  background-image: url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  min-width: 600px;
+  height: 782px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.site-main__wrapper {
+  width: 360px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 30px;
+}
+
+.main-span {
+  display: inline-block;
+  width: 164px;
+  height: auto;
+  padding: 10px;
+  background-color: #1e90ff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  background-image: url("../img/yulduzcha.svg");
+  background-repeat: no-repeat;
+  background-position: 15px;
+  text-transform: uppercase;
+}
+
+.main-span__link {
+  text-decoration: none;
+}
+/* HERO */
+
+.hero {
+  width: 100%;
+  height: 782px;
+  background-color: #fff;
+}
+
+.hero__item {
+  margin-left: 40px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #999999;
+}
+
+.hero__content {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.hero__inner {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__p {
+  /* width: 176px; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero__wrapper {
+  padding: 0px 16px 0px 16px;
+}
+.hero__img {
+  border-radius: 4px;
+}
+
+.hero__info {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #222222;
+  font-weight: 400;
+}
+
+.hero__info-p {
+  margin-right: 40px;
+}
+
+.hero__info-p::before {
+  content: url("/img/soat.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.hero__wiew::before {
+  content: url("/img/prasmotr.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.hero__div {
+  width: 492px;
+  display: inline-block;
+  background-color: #1e90ff;
+  width: 492px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+
+  transition: 0.4s ease;
+}
+
+.hero__div:hover {
+  opacity: 0.5;
+  /* transition: color #fff 0.6s ease; */
+}
+
+.hero__link:active {
+  opacity: 0, 1;
+  color: #999999;
+}
+
+.hero__link {
+  text-decoration: none;
+  color: #fff;
+}
